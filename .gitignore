@@ -1,0 +1,16 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# graphify — ignore machine-specific cache/state, publish the graph outputs
+# (graph.html, graph.json, GRAPH_REPORT.md stay tracked so the graph shows on GitHub)
+graphify-out/.graphify_*
+graphify-out/cache/
+graphify-out/cost.json
+graphify-out/manifest.json

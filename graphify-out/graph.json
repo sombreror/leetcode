@@ -1,0 +1,261 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "solution.js",
+      "file_type": "code",
+      "source_file": "solutions/0001-two-sum/solution.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0001_two_sum_solution",
+      "community": 0,
+      "norm_label": "solution.js"
+    },
+    {
+      "label": "Solution",
+      "file_type": "code",
+      "source_file": "solutions/0001-two-sum/solution.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0001_two_sum_solution_solution",
+      "community": 0,
+      "norm_label": "solution"
+    },
+    {
+      "label": ".twoSum()",
+      "file_type": "code",
+      "source_file": "solutions/0001-two-sum/solution.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "solutions_0001_two_sum_solution_solution_twosum",
+      "community": 0,
+      "norm_label": ".twosum()"
+    },
+    {
+      "label": "solution.js",
+      "file_type": "code",
+      "source_file": "solutions/0049-group-anagrams/solution.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0049_group_anagrams_solution",
+      "community": 1,
+      "norm_label": "solution.js"
+    },
+    {
+      "label": "Solution",
+      "file_type": "code",
+      "source_file": "solutions/0049-group-anagrams/solution.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0049_group_anagrams_solution_solution",
+      "community": 1,
+      "norm_label": "solution"
+    },
+    {
+      "label": ".groupAnagrams()",
+      "file_type": "code",
+      "source_file": "solutions/0049-group-anagrams/solution.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "solutions_0049_group_anagrams_solution_solution_groupanagrams",
+      "community": 1,
+      "norm_label": ".groupanagrams()"
+    },
+    {
+      "label": "solution.js",
+      "file_type": "code",
+      "source_file": "solutions/0121-best-time-to-buy-and-sell-stock/solution.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0121_best_time_to_buy_and_sell_stock_solution",
+      "community": 2,
+      "norm_label": "solution.js"
+    },
+    {
+      "label": "Solution",
+      "file_type": "code",
+      "source_file": "solutions/0121-best-time-to-buy-and-sell-stock/solution.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0121_best_time_to_buy_and_sell_stock_solution_solution",
+      "community": 2,
+      "norm_label": "solution"
+    },
+    {
+      "label": ".maxProfit()",
+      "file_type": "code",
+      "source_file": "solutions/0121-best-time-to-buy-and-sell-stock/solution.js",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "solutions_0121_best_time_to_buy_and_sell_stock_solution_solution_maxprofit",
+      "community": 2,
+      "norm_label": ".maxprofit()"
+    },
+    {
+      "label": "solution.js",
+      "file_type": "code",
+      "source_file": "solutions/0217-contains-duplicate/solution.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0217_contains_duplicate_solution",
+      "community": 3,
+      "norm_label": "solution.js"
+    },
+    {
+      "label": "Solution",
+      "file_type": "code",
+      "source_file": "solutions/0217-contains-duplicate/solution.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0217_contains_duplicate_solution_solution",
+      "community": 3,
+      "norm_label": "solution"
+    },
+    {
+      "label": ".hasDuplicate()",
+      "file_type": "code",
+      "source_file": "solutions/0217-contains-duplicate/solution.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "solutions_0217_contains_duplicate_solution_solution_hasduplicate",
+      "community": 3,
+      "norm_label": ".hasduplicate()"
+    },
+    {
+      "label": "solution.js",
+      "file_type": "code",
+      "source_file": "solutions/0242-valid-anagram/solution.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0242_valid_anagram_solution",
+      "community": 4,
+      "norm_label": "solution.js"
+    },
+    {
+      "label": "Solution",
+      "file_type": "code",
+      "source_file": "solutions/0242-valid-anagram/solution.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0242_valid_anagram_solution_solution",
+      "community": 4,
+      "norm_label": "solution"
+    },
+    {
+      "label": ".isAnagram()",
+      "file_type": "code",
+      "source_file": "solutions/0242-valid-anagram/solution.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "solutions_0242_valid_anagram_solution_solution_isanagram",
+      "community": 4,
+      "norm_label": ".isanagram()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0001-two-sum/solution.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "solutions_0001_two_sum_solution",
+      "target": "solutions_0001_two_sum_solution_solution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0001-two-sum/solution.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "solutions_0001_two_sum_solution_solution",
+      "target": "solutions_0001_two_sum_solution_solution_twosum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0049-group-anagrams/solution.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "solutions_0049_group_anagrams_solution",
+      "target": "solutions_0049_group_anagrams_solution_solution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0049-group-anagrams/solution.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "solutions_0049_group_anagrams_solution_solution",
+      "target": "solutions_0049_group_anagrams_solution_solution_groupanagrams",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0121-best-time-to-buy-and-sell-stock/solution.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "solutions_0121_best_time_to_buy_and_sell_stock_solution",
+      "target": "solutions_0121_best_time_to_buy_and_sell_stock_solution_solution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0121-best-time-to-buy-and-sell-stock/solution.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "solutions_0121_best_time_to_buy_and_sell_stock_solution_solution",
+      "target": "solutions_0121_best_time_to_buy_and_sell_stock_solution_solution_maxprofit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0217-contains-duplicate/solution.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "solutions_0217_contains_duplicate_solution",
+      "target": "solutions_0217_contains_duplicate_solution_solution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0217-contains-duplicate/solution.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "solutions_0217_contains_duplicate_solution_solution",
+      "target": "solutions_0217_contains_duplicate_solution_solution_hasduplicate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0242-valid-anagram/solution.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "solutions_0242_valid_anagram_solution",
+      "target": "solutions_0242_valid_anagram_solution_solution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0242-valid-anagram/solution.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "solutions_0242_valid_anagram_solution_solution",
+      "target": "solutions_0242_valid_anagram_solution_solution_isanagram",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "504f06b00f6e2defce6997d6c11ae9af626419e3"
+}

@@ -1,5 +1,9 @@
 class Solution {
     /**
+     * Returns the maximum profit from a single buy/sell.
+     * Track the lowest price seen so far; at each price compute the profit
+     * of selling today and keep the best. One pass, constant space.
+     *
      * @param {number[]} prices
      * @return {number}
      */
@@ -21,3 +25,5 @@ class Solution {
         return maxProfit;
     }
 }
+
+module.exports = Solution;
