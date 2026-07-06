@@ -94,6 +94,46 @@
       "norm_label": ".maxprofit()"
     },
     {
+      "label": "solution-two-pointers.js",
+      "file_type": "code",
+      "source_file": "solutions/0125-valid-palindrome/solution-two-pointers.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0125_valid_palindrome_solution_two_pointers",
+      "community": 16,
+      "norm_label": "solution-two-pointers.js"
+    },
+    {
+      "label": "Solution",
+      "file_type": "code",
+      "source_file": "solutions/0125-valid-palindrome/solution-two-pointers.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0125_valid_palindrome_solution_two_pointers_solution",
+      "community": 16,
+      "norm_label": "solution"
+    },
+    {
+      "label": ".isAlphanumeric()",
+      "file_type": "code",
+      "source_file": "solutions/0125-valid-palindrome/solution-two-pointers.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "solutions_0125_valid_palindrome_solution_two_pointers_solution_isalphanumeric",
+      "community": 16,
+      "norm_label": ".isalphanumeric()"
+    },
+    {
+      "label": ".isPalindrome()",
+      "file_type": "code",
+      "source_file": "solutions/0125-valid-palindrome/solution-two-pointers.js",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "solutions_0125_valid_palindrome_solution_two_pointers_solution_ispalindrome",
+      "community": 16,
+      "norm_label": ".ispalindrome()"
+    },
+    {
       "label": "solution.js",
       "file_type": "code",
       "source_file": "solutions/0125-valid-palindrome/solution.js",
@@ -504,10 +544,20 @@
       "norm_label": "approach \u2014 filter & compare with reverse"
     },
     {
+      "label": "Alternative \u2014 Two pointers",
+      "file_type": "document",
+      "source_file": "solutions/0125-valid-palindrome/README.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "solutions_0125_valid_palindrome_readme_alternative_two_pointers",
+      "community": 4,
+      "norm_label": "alternative \u2014 two pointers"
+    },
+    {
       "label": "Example",
       "file_type": "document",
       "source_file": "solutions/0125-valid-palindrome/README.md",
-      "source_location": "L29",
+      "source_location": "L39",
       "_origin": "ast",
       "id": "solutions_0125_valid_palindrome_readme_example",
       "community": 4,
@@ -723,6 +773,47 @@
       "weight": 1.0,
       "source": "solutions_0121_best_time_to_buy_and_sell_stock_solution_solution",
       "target": "solutions_0121_best_time_to_buy_and_sell_stock_solution_solution_maxprofit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0125-valid-palindrome/solution-two-pointers.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "solutions_0125_valid_palindrome_solution_two_pointers",
+      "target": "solutions_0125_valid_palindrome_solution_two_pointers_solution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0125-valid-palindrome/solution-two-pointers.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "solutions_0125_valid_palindrome_solution_two_pointers_solution",
+      "target": "solutions_0125_valid_palindrome_solution_two_pointers_solution_isalphanumeric",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0125-valid-palindrome/solution-two-pointers.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "solutions_0125_valid_palindrome_solution_two_pointers_solution",
+      "target": "solutions_0125_valid_palindrome_solution_two_pointers_solution_ispalindrome",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0125-valid-palindrome/solution-two-pointers.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "solutions_0125_valid_palindrome_solution_two_pointers_solution_ispalindrome",
+      "target": "solutions_0125_valid_palindrome_solution_two_pointers_solution_isalphanumeric",
       "confidence_score": 1.0
     },
     {
@@ -1030,6 +1121,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "solutions/0125-valid-palindrome/README.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "solutions_0125_valid_palindrome_readme_125_valid_palindrome",
+      "target": "solutions_0125_valid_palindrome_readme_alternative_two_pointers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0125-valid-palindrome/README.md",
       "source_location": "L15",
       "weight": 1.0,
       "source": "solutions_0125_valid_palindrome_readme_125_valid_palindrome",
@@ -1040,7 +1141,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "solutions/0125-valid-palindrome/README.md",
-      "source_location": "L29",
+      "source_location": "L39",
       "weight": 1.0,
       "source": "solutions_0125_valid_palindrome_readme_125_valid_palindrome",
       "target": "solutions_0125_valid_palindrome_readme_example",
@@ -1178,5 +1279,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "441480fc9a4d28a4bc1747c6aacd5d41ab89bd9e"
+  "built_at_commit": "ff5ff4aeb2c5554b77a617445b19c9b57e12b02b"
 }

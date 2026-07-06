@@ -12,7 +12,7 @@ class Solution {
      */
     isPalindrome(s) {
         const arr = [];
-        for(let c of s){ //c => stand for char
+        for(let c of s){
             if(this.isAlphanumeric(c)){
                 arr.push(c.toLocaleLowerCase());
             }

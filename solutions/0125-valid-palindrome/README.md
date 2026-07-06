@@ -23,8 +23,18 @@ equal means the phrase is a palindrome.
 | Time  | `O(n)` |
 | Space | `O(n)` |
 
-> 💡 A two-pointer scan (moving inward from both ends, skipping non-alphanumeric
-> characters) reaches the same answer in `O(1)` extra space.
+## Alternative — Two pointers
+
+See [`solution-two-pointers.js`](solution-two-pointers.js). Keep two indices:
+`left` starting at the beginning (`++`) and `right` at the end (`--`). At each
+step skip non-alphanumeric characters on both sides, compare the pair
+(lowercased), and move both pointers inward. If every pair matches until the
+pointers cross, the string is a palindrome — no filtered copy is ever built.
+
+| Complexity | Value |
+|------------|-------|
+| Time  | `O(n)` |
+| Space | `O(1)` |
 
 ## Example
 
