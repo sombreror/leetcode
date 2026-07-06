@@ -1,12 +1,18 @@
-# Graph Report - .  (2026-07-05)
+# Graph Report - leetcode  (2026-07-06)
 
 ## Corpus Check
-- Corpus is ~2,063 words - fits in a single context window. You may not need a graph.
+- 17 files · ~2,330 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 58 nodes · 45 edges · 14 communities (7 shown, 7 thin omitted)
+- 66 nodes · 51 edges · 16 communities (8 shown, 8 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `441480fc`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - [[_COMMUNITY_Repo index (README)|Repo index (README)]]
@@ -23,6 +29,8 @@
 - [[_COMMUNITY_217 · Contains Duplicate|217 · Contains Duplicate]]
 - [[_COMMUNITY_242 · Valid Anagram|242 · Valid Anagram]]
 - [[_COMMUNITY_Project  graphify docs|Project / graphify docs]]
+- [[_COMMUNITY_347. Top K Frequent Elements|347. Top K Frequent Elements]]
+- [[_COMMUNITY_Solution|Solution]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `1. Two Sum` - 4 edges
@@ -31,8 +39,8 @@
 4. `125. Valid Palindrome` - 4 edges
 5. `217. Contains Duplicate` - 4 edges
 6. `242. Valid Anagram` - 4 edges
-7. `Solution` - 3 edges
-8. `Solution` - 2 edges
+7. `347. Top K Frequent Elements` - 4 edges
+8. `Solution` - 3 edges
 9. `Solution` - 2 edges
 10. `Solution` - 2 edges
 
@@ -42,7 +50,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (14 total, 7 thin omitted)
+## Communities (16 total, 8 thin omitted)
 
 ### Community 0 - "Repo index (README)"
 Cohesion: 0.29
@@ -72,13 +80,17 @@ Nodes (4): 217. Contains Duplicate, Approach — Hash set, Example, Problem
 Cohesion: 0.40
 Nodes (4): 242. Valid Anagram, Approach — Sort & compare, Example, Problem
 
+### Community 14 - "347. Top K Frequent Elements"
+Cohesion: 0.40
+Nodes (4): 347. Top K Frequent Elements, Approach — Count & sort by frequency, Example, Problem
+
 ## Knowledge Gaps
-- **25 isolated node(s):** `graphify`, `📊 Progress`, `📚 Solutions`, `🗂️ Repository layout`, `▶️ Running a solution` (+20 more)
+- **28 isolated node(s):** `graphify`, `📊 Progress`, `📚 Solutions`, `🗂️ Repository layout`, `▶️ Running a solution` (+23 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **7 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `graphify`, `📊 Progress`, `📚 Solutions` to the rest of the system?**
-  _25 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _28 weakly-connected nodes found - possible documentation gaps or missing edges._

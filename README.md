@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-JavaScript-f7df1e?logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Solved-6-2cbb5d" alt="Solved">
+  <img src="https://img.shields.io/badge/Solved-7-2cbb5d" alt="Solved">
   <img src="https://img.shields.io/badge/Runtime-Node.js-339933?logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/Graph-auto--updated-8a2be2" alt="Knowledge graph">
 </p>
@@ -18,9 +18,9 @@
 | Difficulty | Solved |
 |:-----------|:------:|
 | 🟢 Easy    | 5 |
-| 🟡 Medium  | 1 |
+| 🟡 Medium  | 2 |
 | 🔴 Hard    | 0 |
-| **Total**  | **6** |
+| **Total**  | **7** |
 
 ---
 
@@ -36,6 +36,7 @@ All solutions are in **JavaScript**. Click a problem to open its write-up.
 | 125 | [Valid Palindrome](solutions/0125-valid-palindrome/) | 🟢 Easy | Two Pointers | JavaScript | [`solution.js`](solutions/0125-valid-palindrome/solution.js) |
 | 217 | [Contains Duplicate](solutions/0217-contains-duplicate/) | 🟢 Easy | Arrays & Hashing | JavaScript | [`solution.js`](solutions/0217-contains-duplicate/solution.js) |
 | 242 | [Valid Anagram](solutions/0242-valid-anagram/) | 🟢 Easy | Arrays & Hashing | JavaScript | [`solution.js`](solutions/0242-valid-anagram/solution.js) |
+| 347 | [Top K Frequent Elements](solutions/0347-top-k-frequent-elements/) | 🟡 Medium | Arrays & Hashing | JavaScript | [`solution.js`](solutions/0347-top-k-frequent-elements/solution.js) |
 
 ---
 
@@ -52,7 +53,8 @@ leetcode/
 │   ├── 0121-best-time-to-buy-and-sell-stock/
 │   ├── 0125-valid-palindrome/
 │   ├── 0217-contains-duplicate/
-│   └── 0242-valid-anagram/
+│   ├── 0242-valid-anagram/
+│   └── 0347-top-k-frequent-elements/
 └── graphify-out/                    # auto-generated knowledge graph (see below)
 ```
 

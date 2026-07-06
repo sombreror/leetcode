@@ -194,6 +194,36 @@
       "norm_label": ".isanagram()"
     },
     {
+      "label": "solution.js",
+      "file_type": "code",
+      "source_file": "solutions/0347-top-k-frequent-elements/solution.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0347_top_k_frequent_elements_solution",
+      "community": 15,
+      "norm_label": "solution.js"
+    },
+    {
+      "label": "Solution",
+      "file_type": "code",
+      "source_file": "solutions/0347-top-k-frequent-elements/solution.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0347_top_k_frequent_elements_solution_solution",
+      "community": 15,
+      "norm_label": "solution"
+    },
+    {
+      "label": ".topKFrequent()",
+      "file_type": "code",
+      "source_file": "solutions/0347-top-k-frequent-elements/solution.js",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "solutions_0347_top_k_frequent_elements_solution_solution_topkfrequent",
+      "community": 15,
+      "norm_label": ".topkfrequent()"
+    },
+    {
       "label": "CLAUDE.md",
       "file_type": "document",
       "source_file": "CLAUDE.md",
@@ -247,7 +277,7 @@
       "label": "\ud83d\uddc2\ufe0f Repository layout",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L42",
+      "source_location": "L43",
       "_origin": "ast",
       "id": "readme_repository_layout",
       "community": 0,
@@ -257,7 +287,7 @@
       "label": "\u25b6\ufe0f Running a solution",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L65",
+      "source_location": "L67",
       "_origin": "ast",
       "id": "readme_running_a_solution",
       "community": 0,
@@ -267,7 +297,7 @@
       "label": "\u2795 Adding a new solution",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L81",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "readme_adding_a_new_solution",
       "community": 0,
@@ -277,7 +307,7 @@
       "label": "\ud83d\udd78\ufe0f Knowledge graph",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L92",
+      "source_location": "L94",
       "_origin": "ast",
       "id": "readme_knowledge_graph",
       "community": 0,
@@ -582,6 +612,56 @@
       "id": "solutions_0242_valid_anagram_readme_example",
       "community": 6,
       "norm_label": "example"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "solutions/0347-top-k-frequent-elements/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0347_top_k_frequent_elements_readme",
+      "community": 14,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "347. Top K Frequent Elements",
+      "file_type": "document",
+      "source_file": "solutions/0347-top-k-frequent-elements/README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "solutions_0347_top_k_frequent_elements_readme_347_top_k_frequent_elements",
+      "community": 14,
+      "norm_label": "347. top k frequent elements"
+    },
+    {
+      "label": "Problem",
+      "file_type": "document",
+      "source_file": "solutions/0347-top-k-frequent-elements/README.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "solutions_0347_top_k_frequent_elements_readme_problem",
+      "community": 14,
+      "norm_label": "problem"
+    },
+    {
+      "label": "Approach \u2014 Count & sort by frequency",
+      "file_type": "document",
+      "source_file": "solutions/0347-top-k-frequent-elements/README.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "solutions_0347_top_k_frequent_elements_readme_approach_count_sort_by_frequency",
+      "community": 14,
+      "norm_label": "approach \u2014 count & sort by frequency"
+    },
+    {
+      "label": "Example",
+      "file_type": "document",
+      "source_file": "solutions/0347-top-k-frequent-elements/README.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "solutions_0347_top_k_frequent_elements_readme_example",
+      "community": 14,
+      "norm_label": "example"
     }
   ],
   "links": [
@@ -729,6 +809,26 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "solutions/0347-top-k-frequent-elements/solution.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "solutions_0347_top_k_frequent_elements_solution",
+      "target": "solutions_0347_top_k_frequent_elements_solution_solution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0347-top-k-frequent-elements/solution.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "solutions_0347_top_k_frequent_elements_solution_solution",
+      "target": "solutions_0347_top_k_frequent_elements_solution_solution_topkfrequent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -740,7 +840,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L81",
+      "source_location": "L83",
       "weight": 1.0,
       "source": "readme",
       "target": "readme_adding_a_new_solution",
@@ -750,7 +850,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L92",
+      "source_location": "L94",
       "weight": 1.0,
       "source": "readme",
       "target": "readme_knowledge_graph",
@@ -770,7 +870,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L42",
+      "source_location": "L43",
       "weight": 1.0,
       "source": "readme",
       "target": "readme_repository_layout",
@@ -780,7 +880,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L65",
+      "source_location": "L67",
       "weight": 1.0,
       "source": "readme",
       "target": "readme_running_a_solution",
@@ -1035,8 +1135,48 @@
       "source": "solutions_0242_valid_anagram_readme_242_valid_anagram",
       "target": "solutions_0242_valid_anagram_readme_problem",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0347-top-k-frequent-elements/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "solutions_0347_top_k_frequent_elements_readme",
+      "target": "solutions_0347_top_k_frequent_elements_readme_347_top_k_frequent_elements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0347-top-k-frequent-elements/README.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "solutions_0347_top_k_frequent_elements_readme_347_top_k_frequent_elements",
+      "target": "solutions_0347_top_k_frequent_elements_readme_approach_count_sort_by_frequency",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0347-top-k-frequent-elements/README.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "solutions_0347_top_k_frequent_elements_readme_347_top_k_frequent_elements",
+      "target": "solutions_0347_top_k_frequent_elements_readme_example",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "solutions/0347-top-k-frequent-elements/README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "solutions_0347_top_k_frequent_elements_readme_347_top_k_frequent_elements",
+      "target": "solutions_0347_top_k_frequent_elements_readme_problem",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c05d167d2575d7bf818d30f35825174dfde1e05b"
+  "built_at_commit": "441480fc9a4d28a4bc1747c6aacd5d41ab89bd9e"
 }
