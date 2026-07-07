@@ -1,7 +1,7 @@
-# Graph Report - leetcode  (2026-07-07)
+# Graph Report - leetcode  (2026-07-08)
 
 ## Corpus Check
-- 24 files · ~3,578 words
+- 24 files · ~3,609 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `0084e02b`
+- Built from commit: `30120e23`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -104,12 +104,12 @@ Cohesion: 0.40
 Nodes (4): 167. Two Sum II — Input Array Is Sorted, Approach — Two pointers, Example, Problem
 
 ## Knowledge Gaps
-- **38 isolated node(s):** `graphify`, `By topic`, `Solutions`, `Repository layout`, `Running a solution` (+33 more)
+- **38 isolated node(s):** `By topic`, `Solutions`, `Repository layout`, `Running a solution`, `Adding a new solution` (+33 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `graphify`, `By topic`, `Solutions` to the rest of the system?**
+- **What connects `By topic`, `Solutions`, `Repository layout` to the rest of the system?**
   _38 weakly-connected nodes found - possible documentation gaps or missing edges._
