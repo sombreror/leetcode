@@ -1,16 +1,16 @@
 # Graph Report - leetcode  (2026-07-07)
 
 ## Corpus Check
-- 24 files · ~3,342 words
+- 24 files · ~3,578 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 95 nodes · 74 edges · 23 communities (11 shown, 12 thin omitted)
+- 97 nodes · 76 edges · 23 communities (11 shown, 12 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2f435ea4`
+- Built from commit: `0084e02b`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -40,16 +40,16 @@
 - [[_COMMUNITY_Solution|Solution]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `125. Valid Palindrome` - 5 edges
-2. `1. Two Sum` - 4 edges
-3. `11. Container With Most Water` - 4 edges
-4. `15. 3Sum` - 4 edges
-5. `49. Group Anagrams` - 4 edges
-6. `121. Best Time to Buy and Sell Stock` - 4 edges
-7. `167. Two Sum II — Input Array Is Sorted` - 4 edges
-8. `217. Contains Duplicate` - 4 edges
-9. `242. Valid Anagram` - 4 edges
-10. `347. Top K Frequent Elements` - 4 edges
+1. `LeetCode Solutions` - 7 edges
+2. `125. Valid Palindrome` - 5 edges
+3. `1. Two Sum` - 4 edges
+4. `11. Container With Most Water` - 4 edges
+5. `15. 3Sum` - 4 edges
+6. `49. Group Anagrams` - 4 edges
+7. `121. Best Time to Buy and Sell Stock` - 4 edges
+8. `167. Two Sum II — Input Array Is Sorted` - 4 edges
+9. `217. Contains Duplicate` - 4 edges
+10. `242. Valid Anagram` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -60,8 +60,8 @@
 ## Communities (23 total, 12 thin omitted)
 
 ### Community 0 - "Repo index (README)"
-Cohesion: 0.29
-Nodes (6): ➕ Adding a new solution, 🕸️ Knowledge graph, 📊 Progress, 🗂️ Repository layout, ▶️ Running a solution, 📚 Solutions
+Cohesion: 0.22
+Nodes (8): Adding a new solution, By topic, Knowledge graph, LeetCode Solutions, Progress, Repository layout, Running a solution, Solutions
 
 ### Community 1 - "1 · Two Sum"
 Cohesion: 0.40
@@ -104,12 +104,12 @@ Cohesion: 0.40
 Nodes (4): 167. Two Sum II — Input Array Is Sorted, Approach — Two pointers, Example, Problem
 
 ## Knowledge Gaps
-- **38 isolated node(s):** `graphify`, `📊 Progress`, `📚 Solutions`, `🗂️ Repository layout`, `▶️ Running a solution` (+33 more)
+- **38 isolated node(s):** `graphify`, `By topic`, `Solutions`, `Repository layout`, `Running a solution` (+33 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `graphify`, `📊 Progress`, `📚 Solutions` to the rest of the system?**
+- **What connects `graphify`, `By topic`, `Solutions` to the rest of the system?**
   _38 weakly-connected nodes found - possible documentation gaps or missing edges._

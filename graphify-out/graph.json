@@ -384,64 +384,84 @@
       "norm_label": "readme.md"
     },
     {
-      "label": "\ud83d\udcca Progress",
+      "label": "LeetCode Solutions",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L16",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "readme_leetcode_solutions",
+      "community": 0,
+      "norm_label": "leetcode solutions"
+    },
+    {
+      "label": "Progress",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "readme_progress",
       "community": 0,
-      "norm_label": "\ud83d\udcca progress"
+      "norm_label": "progress"
     },
     {
-      "label": "\ud83d\udcda Solutions",
+      "label": "By topic",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L27",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "readme_by_topic",
+      "community": 0,
+      "norm_label": "by topic"
+    },
+    {
+      "label": "Solutions",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L49",
       "_origin": "ast",
       "id": "readme_solutions",
       "community": 0,
-      "norm_label": "\ud83d\udcda solutions"
+      "norm_label": "solutions"
     },
     {
-      "label": "\ud83d\uddc2\ufe0f Repository layout",
+      "label": "Repository layout",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L46",
+      "source_location": "L68",
       "_origin": "ast",
       "id": "readme_repository_layout",
       "community": 0,
-      "norm_label": "\ud83d\uddc2\ufe0f repository layout"
+      "norm_label": "repository layout"
     },
     {
-      "label": "\u25b6\ufe0f Running a solution",
+      "label": "Running a solution",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L73",
+      "source_location": "L95",
       "_origin": "ast",
       "id": "readme_running_a_solution",
       "community": 0,
-      "norm_label": "\u25b6\ufe0f running a solution"
+      "norm_label": "running a solution"
     },
     {
-      "label": "\u2795 Adding a new solution",
+      "label": "Adding a new solution",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L89",
+      "source_location": "L111",
       "_origin": "ast",
       "id": "readme_adding_a_new_solution",
       "community": 0,
-      "norm_label": "\u2795 adding a new solution"
+      "norm_label": "adding a new solution"
     },
     {
-      "label": "\ud83d\udd78\ufe0f Knowledge graph",
+      "label": "Knowledge graph",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L100",
+      "source_location": "L124",
       "_origin": "ast",
       "id": "readme_knowledge_graph",
       "community": 0,
-      "norm_label": "\ud83d\udd78\ufe0f knowledge graph"
+      "norm_label": "knowledge graph"
     },
     {
       "label": "README.md",
@@ -1231,9 +1251,19 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L89",
+      "source_location": "L3",
       "weight": 1.0,
       "source": "readme",
+      "target": "readme_leetcode_solutions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "readme_leetcode_solutions",
       "target": "readme_adding_a_new_solution",
       "confidence_score": 1.0
     },
@@ -1241,9 +1271,9 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L100",
+      "source_location": "L124",
       "weight": 1.0,
-      "source": "readme",
+      "source": "readme_leetcode_solutions",
       "target": "readme_knowledge_graph",
       "confidence_score": 1.0
     },
@@ -1251,9 +1281,9 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L16",
+      "source_location": "L29",
       "weight": 1.0,
-      "source": "readme",
+      "source": "readme_leetcode_solutions",
       "target": "readme_progress",
       "confidence_score": 1.0
     },
@@ -1261,9 +1291,9 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L46",
+      "source_location": "L68",
       "weight": 1.0,
-      "source": "readme",
+      "source": "readme_leetcode_solutions",
       "target": "readme_repository_layout",
       "confidence_score": 1.0
     },
@@ -1271,9 +1301,9 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L73",
+      "source_location": "L95",
       "weight": 1.0,
-      "source": "readme",
+      "source": "readme_leetcode_solutions",
       "target": "readme_running_a_solution",
       "confidence_score": 1.0
     },
@@ -1281,10 +1311,20 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L27",
+      "source_location": "L49",
       "weight": 1.0,
-      "source": "readme",
+      "source": "readme_leetcode_solutions",
       "target": "readme_solutions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "readme_progress",
+      "target": "readme_by_topic",
       "confidence_score": 1.0
     },
     {
@@ -1699,5 +1739,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2f435ea4fd3586138c84b1610c39df8f6492c74c"
+  "built_at_commit": "0084e02befb5b63932f55086bf05d8f3254154e5"
 }

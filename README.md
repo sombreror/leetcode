@@ -1,49 +1,71 @@
-<h1 align="center">🧩 LeetCode Solutions</h1>
+<div align="center">
 
-<p align="center">
-  My LeetCode solutions — one folder per problem, with a write-up and runnable code.
-</p>
+# LeetCode Solutions
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-JavaScript-f7df1e?logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Solved-10-2cbb5d" alt="Solved">
-  <img src="https://img.shields.io/badge/Runtime-Node.js-339933?logo=node.js&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Graph-auto--updated-8a2be2" alt="Knowledge graph">
-</p>
+**One folder per problem — a clean write-up, a runnable solution, and an auto-updated knowledge graph.**
 
----
+<br>
 
-## 📊 Progress
+<img src="https://img.shields.io/badge/Language-JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black" alt="Language: JavaScript">
+<img src="https://img.shields.io/badge/Runtime-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Runtime: Node.js">
+<img src="https://img.shields.io/badge/Knowledge_Graph-auto--updated-8957e5?style=for-the-badge" alt="Knowledge graph: auto-updated">
 
-| Difficulty | Solved |
-|:-----------|:------:|
-| 🟢 Easy    | 5 |
-| 🟡 Medium  | 5 |
-| 🔴 Hard    | 0 |
-| **Total**  | **10** |
+<br>
 
----
+<img src="https://img.shields.io/badge/Solved-10-2f81f7?style=for-the-badge" alt="Solved: 10">
+<img src="https://img.shields.io/badge/Easy-5-00b8a3?style=for-the-badge" alt="Easy: 5">
+<img src="https://img.shields.io/badge/Medium-5-ffb800?style=for-the-badge" alt="Medium: 5">
+<img src="https://img.shields.io/badge/Hard-0-ff375f?style=for-the-badge" alt="Hard: 0">
 
-## 📚 Solutions
+<br>
+<br>
 
-All solutions are in **JavaScript**. Click a problem to open its write-up.
+[Progress](#progress) · [Solutions](#solutions) · [Repository layout](#repository-layout) · [Running a solution](#running-a-solution) · [Adding a new solution](#adding-a-new-solution) · [Knowledge graph](#knowledge-graph)
 
-| # | Problem | Difficulty | Topic | Language | Solution |
-|:-:|---------|:----------:|-------|:--------:|----------|
-| 1 | [Two Sum](solutions/0001-two-sum/) | 🟢 Easy | Arrays & Hashing | JavaScript | [`solution.js`](solutions/0001-two-sum/solution.js) |
-| 11 | [Container With Most Water](solutions/0011-container-with-most-water/) | 🟡 Medium | Two Pointers | JavaScript | [`solution.js`](solutions/0011-container-with-most-water/solution.js) |
-| 15 | [3Sum](solutions/0015-3sum/) | 🟡 Medium | Two Pointers | JavaScript | [`solution.js`](solutions/0015-3sum/solution.js) |
-| 49 | [Group Anagrams](solutions/0049-group-anagrams/) | 🟡 Medium | Arrays & Hashing | JavaScript | [`solution.js`](solutions/0049-group-anagrams/solution.js) |
-| 121 | [Best Time to Buy and Sell Stock](solutions/0121-best-time-to-buy-and-sell-stock/) | 🟢 Easy | Sliding Window | JavaScript | [`solution.js`](solutions/0121-best-time-to-buy-and-sell-stock/solution.js) |
-| 125 | [Valid Palindrome](solutions/0125-valid-palindrome/) | 🟢 Easy | Two Pointers | JavaScript | [`solution.js`](solutions/0125-valid-palindrome/solution.js) |
-| 167 | [Two Sum II — Input Array Is Sorted](solutions/0167-two-sum-II/) | 🟡 Medium | Two Pointers | JavaScript | [`solution.js`](solutions/0167-two-sum-II/solution.js) |
-| 217 | [Contains Duplicate](solutions/0217-contains-duplicate/) | 🟢 Easy | Arrays & Hashing | JavaScript | [`solution.js`](solutions/0217-contains-duplicate/solution.js) |
-| 242 | [Valid Anagram](solutions/0242-valid-anagram/) | 🟢 Easy | Arrays & Hashing | JavaScript | [`solution.js`](solutions/0242-valid-anagram/solution.js) |
-| 347 | [Top K Frequent Elements](solutions/0347-top-k-frequent-elements/) | 🟡 Medium | Arrays & Hashing | JavaScript | [`solution.js`](solutions/0347-top-k-frequent-elements/solution.js) |
+</div>
 
 ---
 
-## 🗂️ Repository layout
+## Progress
+
+| Difficulty | Solved | Share of solved | |
+|:-----------|:------:|:---------------:|:--|
+| ![Easy][easy] | **5** | 50% | ${\color{teal}\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare}\color{lightgray}\square\square\square\square\square$ |
+| ![Medium][medium] | **5** | 50% | ${\color{orange}\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare}\color{lightgray}\square\square\square\square\square$ |
+| ![Hard][hard] | **0** | 0% | $\color{lightgray}\square\square\square\square\square\square\square\square\square\square$ |
+
+### By topic
+
+```mermaid
+%%{init: {"themeVariables": {"pie1": "#2f81f7", "pie2": "#8957e5", "pie3": "#1f883d", "pieOuterStrokeWidth": "2px"}}}%%
+pie showData title Solved problems by topic
+    "Arrays & Hashing" : 5
+    "Two Pointers" : 4
+    "Sliding Window" : 1
+```
+
+---
+
+## Solutions
+
+All solutions are written in **JavaScript**. Click a problem for its write-up, or jump straight to the code.
+
+| # | Problem | Difficulty | Topic | Approach | Time | Space | Code |
+|:-:|---------|:----------:|:-----:|----------|:----:|:-----:|:----:|
+| 1 | [Two Sum](solutions/0001-two-sum/) | ![Easy][easy] | ![Arrays & Hashing][arrays] | One-pass hash map | `O(n)` | `O(n)` | [`solution.js`](solutions/0001-two-sum/solution.js) |
+| 11 | [Container With Most Water](solutions/0011-container-with-most-water/) | ![Medium][medium] | ![Two Pointers][pointers] | Two pointers | `O(n)` | `O(1)` | [`solution.js`](solutions/0011-container-with-most-water/solution.js) |
+| 15 | [3Sum](solutions/0015-3sum/) | ![Medium][medium] | ![Two Pointers][pointers] | Sort + two pointers | `O(n²)` | `O(1)` | [`solution.js`](solutions/0015-3sum/solution.js) |
+| 49 | [Group Anagrams](solutions/0049-group-anagrams/) | ![Medium][medium] | ![Arrays & Hashing][arrays] | Character-count key | `O(n·k)` | `O(n·k)` | [`solution.js`](solutions/0049-group-anagrams/solution.js) |
+| 121 | [Best Time to Buy and Sell Stock](solutions/0121-best-time-to-buy-and-sell-stock/) | ![Easy][easy] | ![Sliding Window][window] | One pass, rolling minimum | `O(n)` | `O(1)` | [`solution.js`](solutions/0121-best-time-to-buy-and-sell-stock/solution.js) |
+| 125 | [Valid Palindrome](solutions/0125-valid-palindrome/) | ![Easy][easy] | ![Two Pointers][pointers] | Filter & compare with reverse | `O(n)` | `O(n)` | [`solution.js`](solutions/0125-valid-palindrome/solution.js) |
+| 167 | [Two Sum II — Input Array Is Sorted](solutions/0167-two-sum-II/) | ![Medium][medium] | ![Two Pointers][pointers] | Two pointers | `O(n)` | `O(1)` | [`solution.js`](solutions/0167-two-sum-II/solution.js) |
+| 217 | [Contains Duplicate](solutions/0217-contains-duplicate/) | ![Easy][easy] | ![Arrays & Hashing][arrays] | Hash set | `O(n)` | `O(n)` | [`solution.js`](solutions/0217-contains-duplicate/solution.js) |
+| 242 | [Valid Anagram](solutions/0242-valid-anagram/) | ![Easy][easy] | ![Arrays & Hashing][arrays] | Sort & compare | `O(n log n)` | `O(n)` | [`solution.js`](solutions/0242-valid-anagram/solution.js) |
+| 347 | [Top K Frequent Elements](solutions/0347-top-k-frequent-elements/) | ![Medium][medium] | ![Arrays & Hashing][arrays] | Count & sort by frequency | `O(n log n)` | `O(n)` | [`solution.js`](solutions/0347-top-k-frequent-elements/solution.js) |
+
+---
+
+## Repository layout
 
 ```
 leetcode/
@@ -64,16 +86,15 @@ leetcode/
 └── graphify-out/                    # auto-generated knowledge graph (see below)
 ```
 
-**Naming convention:** each folder is `<zero-padded-leetcode-id>-<kebab-slug>`, e.g.
-`0121-best-time-to-buy-and-sell-stock`. This keeps problems sorted by number and
-easy to find.
+> [!NOTE]
+> **Naming convention:** each folder is `<zero-padded-leetcode-id>-<kebab-slug>`, e.g.
+> `0121-best-time-to-buy-and-sell-stock`. This keeps problems sorted by number and easy to find.
 
 ---
 
-## ▶️ Running a solution
+## Running a solution
 
-Every `solution.js` exports the `Solution` class, so it runs under Node.js with no
-setup:
+Every `solution.js` exports the `Solution` class, so it runs under Node.js with no setup:
 
 ```bash
 node -e '
@@ -82,31 +103,48 @@ node -e '
 '
 ```
 
-Each problem's `README.md` includes a copy-paste example.
+> [!TIP]
+> Each problem's `README.md` includes a copy-paste example for its own method signature.
 
 ---
 
-## ➕ Adding a new solution
+## Adding a new solution
 
 1. Create `solutions/<id>-<slug>/` (pad the id to 4 digits).
-2. Add `solution.js` exporting a `Solution` class, plus a `README.md` (copy an
-   existing one as a template).
-3. Add a row to the [Solutions](#-solutions) table and bump the
-   [Progress](#-progress) counts.
+2. Add `solution.js` exporting a `Solution` class, plus a `README.md` (copy an existing one as a template).
+3. Add a row to the [Solutions](#solutions) table and bump the [Progress](#progress) counts.
 4. Commit — the knowledge graph rebuilds itself (see below).
+
+> [!IMPORTANT]
+> Keep the Solutions table, the Progress counts, and the header badges in sync —
+> they are updated by hand, not generated.
 
 ---
 
-## 🕸️ Knowledge graph
+## Knowledge graph
 
-This repo keeps a **knowledge graph** of the code under `graphify-out/`, generated
-with [graphify](https://github.com/safishamsi/graphify). It maps every
-`file → Solution → method`, so the structure of the repo can be read at a glance
-instead of opening every file.
+This repo keeps a **knowledge graph** of the code under `graphify-out/`, generated with
+[graphify](https://github.com/safishamsi/graphify). It maps every `file → Solution → method`,
+so the structure of the repo can be read at a glance instead of opening every file:
 
-- 🌐 **`graphify-out/graph.html`** — interactive graph, open in a browser.
-- 📄 **`graphify-out/GRAPH_REPORT.md`** — human-readable report (key nodes, communities).
-- 🧠 **`graphify-out/graph.json`** — raw graph data for querying.
+```mermaid
+flowchart LR
+    F["solutions/0001-two-sum/solution.js"] --> C["Solution"] --> M["twoSum(nums, target)"]
+    F2["solutions/0015-3sum/solution.js"] --> C2["Solution"] --> M2["threeSum(nums)"]
+
+    classDef file fill:#2f81f7,stroke:#1a5cd6,color:#ffffff
+    classDef cls fill:#8957e5,stroke:#6e40c9,color:#ffffff
+    classDef method fill:#1f883d,stroke:#166b2f,color:#ffffff
+    class F,F2 file
+    class C,C2 cls
+    class M,M2 method
+```
+
+| Artifact | What it is |
+|----------|------------|
+| [`graphify-out/graph.html`](graphify-out/graph.html) | Interactive graph — open in a browser |
+| [`graphify-out/GRAPH_REPORT.md`](graphify-out/GRAPH_REPORT.md) | Human-readable report (key nodes, communities) |
+| [`graphify-out/graph.json`](graphify-out/graph.json) | Raw graph data for querying |
 
 The graph **rebuilds automatically after every commit** via a git post-commit hook.
 To refresh it manually:
@@ -117,4 +155,17 @@ graphify update .        # incremental, AST-only, no API cost
 
 ---
 
-<p align="center"><i>One problem at a time.</i> 🚀</p>
+<div align="center">
+
+*One problem at a time.*
+
+</div>
+
+<!-- Badge definitions -->
+
+[easy]: https://img.shields.io/badge/Easy-00b8a3?style=flat-square
+[medium]: https://img.shields.io/badge/Medium-ffb800?style=flat-square
+[hard]: https://img.shields.io/badge/Hard-ff375f?style=flat-square
+[arrays]: https://img.shields.io/badge/Arrays_%26_Hashing-2f81f7?style=flat-square
+[pointers]: https://img.shields.io/badge/Two_Pointers-8957e5?style=flat-square
+[window]: https://img.shields.io/badge/Sliding_Window-1f883d?style=flat-square
