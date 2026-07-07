@@ -1,16 +1,16 @@
 # Graph Report - leetcode  (2026-07-07)
 
 ## Corpus Check
-- 18 files · ~2,493 words
+- 24 files · ~3,342 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 71 nodes · 56 edges · 17 communities (8 shown, 9 thin omitted)
+- 95 nodes · 74 edges · 23 communities (11 shown, 12 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `ff5ff4ae`
+- Built from commit: `2f435ea4`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -32,18 +32,24 @@
 - [[_COMMUNITY_347. Top K Frequent Elements|347. Top K Frequent Elements]]
 - [[_COMMUNITY_Solution|Solution]]
 - [[_COMMUNITY_Solution|Solution]]
+- [[_COMMUNITY_11. Container With Most Water|11. Container With Most Water]]
+- [[_COMMUNITY_15. 3Sum|15. 3Sum]]
+- [[_COMMUNITY_167. Two Sum II — Input Array Is Sorted|167. Two Sum II — Input Array Is Sorted]]
+- [[_COMMUNITY_Solution|Solution]]
+- [[_COMMUNITY_Solution|Solution]]
+- [[_COMMUNITY_Solution|Solution]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `125. Valid Palindrome` - 5 edges
 2. `1. Two Sum` - 4 edges
-3. `49. Group Anagrams` - 4 edges
-4. `121. Best Time to Buy and Sell Stock` - 4 edges
-5. `217. Contains Duplicate` - 4 edges
-6. `242. Valid Anagram` - 4 edges
-7. `347. Top K Frequent Elements` - 4 edges
-8. `Solution` - 3 edges
-9. `Solution` - 3 edges
-10. `Solution` - 2 edges
+3. `11. Container With Most Water` - 4 edges
+4. `15. 3Sum` - 4 edges
+5. `49. Group Anagrams` - 4 edges
+6. `121. Best Time to Buy and Sell Stock` - 4 edges
+7. `167. Two Sum II — Input Array Is Sorted` - 4 edges
+8. `217. Contains Duplicate` - 4 edges
+9. `242. Valid Anagram` - 4 edges
+10. `347. Top K Frequent Elements` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -51,7 +57,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (17 total, 9 thin omitted)
+## Communities (23 total, 12 thin omitted)
 
 ### Community 0 - "Repo index (README)"
 Cohesion: 0.29
@@ -85,13 +91,25 @@ Nodes (4): 242. Valid Anagram, Approach — Sort & compare, Example, Problem
 Cohesion: 0.40
 Nodes (4): 347. Top K Frequent Elements, Approach — Count & sort by frequency, Example, Problem
 
+### Community 17 - "11. Container With Most Water"
+Cohesion: 0.40
+Nodes (4): 11. Container With Most Water, Approach — Two pointers, Example, Problem
+
+### Community 18 - "15. 3Sum"
+Cohesion: 0.40
+Nodes (4): 15. 3Sum, Approach — Sort + two pointers, Example, Problem
+
+### Community 19 - "167. Two Sum II — Input Array Is Sorted"
+Cohesion: 0.40
+Nodes (4): 167. Two Sum II — Input Array Is Sorted, Approach — Two pointers, Example, Problem
+
 ## Knowledge Gaps
-- **29 isolated node(s):** `graphify`, `📊 Progress`, `📚 Solutions`, `🗂️ Repository layout`, `▶️ Running a solution` (+24 more)
+- **38 isolated node(s):** `graphify`, `📊 Progress`, `📚 Solutions`, `🗂️ Repository layout`, `▶️ Running a solution` (+33 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `graphify`, `📊 Progress`, `📚 Solutions` to the rest of the system?**
-  _29 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _38 weakly-connected nodes found - possible documentation gaps or missing edges._
