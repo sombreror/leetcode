@@ -13,9 +13,9 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/Solved-10-2f81f7?style=for-the-badge" alt="Solved: 10">
+<img src="https://img.shields.io/badge/Solved-12-2f81f7?style=for-the-badge" alt="Solved: 12">
 <img src="https://img.shields.io/badge/Easy-5-00b8a3?style=for-the-badge" alt="Easy: 5">
-<img src="https://img.shields.io/badge/Medium-5-ffb800?style=for-the-badge" alt="Medium: 5">
+<img src="https://img.shields.io/badge/Medium-7-ffb800?style=for-the-badge" alt="Medium: 7">
 <img src="https://img.shields.io/badge/Hard-0-ff375f?style=for-the-badge" alt="Hard: 0">
 
 <br>
@@ -31,8 +31,8 @@
 
 | Difficulty | Solved | Share of solved | |
 |:-----------|:------:|:---------------:|:--|
-| ![Easy][easy] | **5** | 50% | ${\color{teal}\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare}\color{lightgray}\square\square\square\square\square$ |
-| ![Medium][medium] | **5** | 50% | ${\color{orange}\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare}\color{lightgray}\square\square\square\square\square$ |
+| ![Easy][easy] | **5** | 42% | ${\color{teal}\blacksquare\blacksquare\blacksquare\blacksquare}\color{lightgray}\square\square\square\square\square\square$ |
+| ![Medium][medium] | **7** | 58% | ${\color{orange}\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare}\color{lightgray}\square\square\square\square$ |
 | ![Hard][hard] | **0** | 0% | $\color{lightgray}\square\square\square\square\square\square\square\square\square\square$ |
 
 ### By topic
@@ -42,7 +42,7 @@
 pie showData title Solved problems by topic
     "Arrays & Hashing" : 5
     "Two Pointers" : 4
-    "Sliding Window" : 1
+    "Sliding Window" : 3
 ```
 
 ---
@@ -53,11 +53,12 @@ All solutions are written in **JavaScript**. Click a problem for its write-up, o
 
 > [!TIP]
 > The theory behind each pattern (hand-drawn Excalidraw notes + templates) lives in the twin repo
-> **[sombreror/algorithms](https://github.com/sombreror/algorithms)** — e.g. [Two Pointers](https://github.com/sombreror/algorithms/tree/main/Two%20Pointers).
+> **[sombreror/algorithms](https://github.com/sombreror/algorithms)** — e.g. [Two Pointers](https://github.com/sombreror/algorithms/tree/main/Algorithms/Two%20Pointers) and [Sliding Window](https://github.com/sombreror/algorithms/tree/main/Algorithms/Sliding%20Window).
 
 | # | Problem | Difficulty | Topic | Approach | Time | Space | Code |
 |:-:|---------|:----------:|:-----:|----------|:----:|:-----:|:----:|
 | 1 | [Two Sum](solutions/0001-two-sum/) | ![Easy][easy] | ![Arrays & Hashing][arrays] | One-pass hash map | `O(n)` | `O(n)` | [`solution.js`](solutions/0001-two-sum/solution.js) |
+| 3 | [Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters/) | ![Medium][medium] | ![Sliding Window][window] | Sliding window + last-seen map | `O(n)` | `O(k)` | [`solution.js`](solutions/0003-longest-substring-without-repeating-characters/solution.js) |
 | 11 | [Container With Most Water](solutions/0011-container-with-most-water/) | ![Medium][medium] | ![Two Pointers][pointers] | Two pointers | `O(n)` | `O(1)` | [`solution.js`](solutions/0011-container-with-most-water/solution.js) |
 | 15 | [3Sum](solutions/0015-3sum/) | ![Medium][medium] | ![Two Pointers][pointers] | Sort + two pointers | `O(n²)` | `O(1)` | [`solution.js`](solutions/0015-3sum/solution.js) |
 | 49 | [Group Anagrams](solutions/0049-group-anagrams/) | ![Medium][medium] | ![Arrays & Hashing][arrays] | Character-count key | `O(n·k)` | `O(n·k)` | [`solution.js`](solutions/0049-group-anagrams/solution.js) |
@@ -67,6 +68,7 @@ All solutions are written in **JavaScript**. Click a problem for its write-up, o
 | 217 | [Contains Duplicate](solutions/0217-contains-duplicate/) | ![Easy][easy] | ![Arrays & Hashing][arrays] | Hash set | `O(n)` | `O(n)` | [`solution.js`](solutions/0217-contains-duplicate/solution.js) |
 | 242 | [Valid Anagram](solutions/0242-valid-anagram/) | ![Easy][easy] | ![Arrays & Hashing][arrays] | Sort & compare | `O(n log n)` | `O(n)` | [`solution.js`](solutions/0242-valid-anagram/solution.js) |
 | 347 | [Top K Frequent Elements](solutions/0347-top-k-frequent-elements/) | ![Medium][medium] | ![Arrays & Hashing][arrays] | Count & sort by frequency | `O(n log n)` | `O(n)` | [`solution.js`](solutions/0347-top-k-frequent-elements/solution.js) |
+| 424 | [Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement/) | ![Medium][medium] | ![Sliding Window][window] | Sliding window + max frequency | `O(n)` | `O(1)` | [`solution.js`](solutions/0424-longest-repeating-character-replacement/solution.js) |
 
 ---
 
@@ -79,6 +81,7 @@ leetcode/
 │   ├── 0001-two-sum/
 │   │   ├── README.md                # problem statement + approach + complexity
 │   │   └── solution.js              # the solution (exports `Solution`)
+│   ├── 0003-longest-substring-without-repeating-characters/
 │   ├── 0011-container-with-most-water/
 │   ├── 0015-3sum/
 │   ├── 0049-group-anagrams/
@@ -87,7 +90,8 @@ leetcode/
 │   ├── 0167-two-sum-II/
 │   ├── 0217-contains-duplicate/
 │   ├── 0242-valid-anagram/
-│   └── 0347-top-k-frequent-elements/
+│   ├── 0347-top-k-frequent-elements/
+│   └── 0424-longest-repeating-character-replacement/
 └── graphify-out/                    # auto-generated knowledge graph (see below)
 ```
 
