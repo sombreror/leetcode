@@ -1,16 +1,16 @@
 # Graph Report - leetcode  (2026-07-08)
 
 ## Corpus Check
-- 24 files · ~3,609 words
+- 28 files · ~4,234 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 97 nodes · 76 edges · 23 communities (11 shown, 12 thin omitted)
+- 113 nodes · 88 edges · 27 communities (13 shown, 14 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `30120e23`
+- Built from commit: `8ec44826`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -38,18 +38,22 @@
 - [[_COMMUNITY_Solution|Solution]]
 - [[_COMMUNITY_Solution|Solution]]
 - [[_COMMUNITY_Solution|Solution]]
+- [[_COMMUNITY_3. Longest Substring Without Repeating Characters|3. Longest Substring Without Repeating Characters]]
+- [[_COMMUNITY_424. Longest Repeating Character Replacement|424. Longest Repeating Character Replacement]]
+- [[_COMMUNITY_Solution|Solution]]
+- [[_COMMUNITY_Solution|Solution]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `LeetCode Solutions` - 7 edges
 2. `125. Valid Palindrome` - 5 edges
-3. `1. Two Sum` - 4 edges
-4. `11. Container With Most Water` - 4 edges
-5. `15. 3Sum` - 4 edges
-6. `49. Group Anagrams` - 4 edges
-7. `121. Best Time to Buy and Sell Stock` - 4 edges
-8. `167. Two Sum II — Input Array Is Sorted` - 4 edges
-9. `217. Contains Duplicate` - 4 edges
-10. `242. Valid Anagram` - 4 edges
+3. `3. Longest Substring Without Repeating Characters` - 4 edges
+4. `424. Longest Repeating Character Replacement` - 4 edges
+5. `1. Two Sum` - 4 edges
+6. `11. Container With Most Water` - 4 edges
+7. `15. 3Sum` - 4 edges
+8. `49. Group Anagrams` - 4 edges
+9. `121. Best Time to Buy and Sell Stock` - 4 edges
+10. `167. Two Sum II — Input Array Is Sorted` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
 - None detected - all connections are within the same source files.
@@ -57,7 +61,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (23 total, 12 thin omitted)
+## Communities (27 total, 14 thin omitted)
 
 ### Community 0 - "Repo index (README)"
 Cohesion: 0.22
@@ -103,13 +107,21 @@ Nodes (4): 15. 3Sum, Approach — Sort + two pointers, Example, Problem
 Cohesion: 0.40
 Nodes (4): 167. Two Sum II — Input Array Is Sorted, Approach — Two pointers, Example, Problem
 
+### Community 23 - "3. Longest Substring Without Repeating Characters"
+Cohesion: 0.40
+Nodes (4): 3. Longest Substring Without Repeating Characters, Approach — Sliding window + last-seen map, Example, Problem
+
+### Community 24 - "424. Longest Repeating Character Replacement"
+Cohesion: 0.40
+Nodes (4): 424. Longest Repeating Character Replacement, Approach — Sliding window + max frequency, Example, Problem
+
 ## Knowledge Gaps
-- **38 isolated node(s):** `By topic`, `Solutions`, `Repository layout`, `Running a solution`, `Adding a new solution` (+33 more)
+- **44 isolated node(s):** `By topic`, `Solutions`, `Repository layout`, `Running a solution`, `Adding a new solution` (+39 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **14 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **What connects `By topic`, `Solutions`, `Repository layout` to the rest of the system?**
-  _38 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _44 weakly-connected nodes found - possible documentation gaps or missing edges._
