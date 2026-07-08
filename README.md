@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/Language-JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black" alt="Language: JavaScript">
 <img src="https://img.shields.io/badge/Runtime-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Runtime: Node.js">
 <img src="https://img.shields.io/badge/Knowledge_Graph-auto--updated-8957e5?style=for-the-badge" alt="Knowledge graph: auto-updated">
-<a href="https://github.com/sombreror/algorithms"><img src="https://img.shields.io/badge/Theory-Visual_Algorithm_Notes-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white" alt="Theory: visual algorithm notes"></a>
+<a href="https://github.com/sombreror/algorithms-and-data-structure"><img src="https://img.shields.io/badge/Theory-Visual_Algorithm_Notes-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white" alt="Theory: visual algorithm notes"></a>
 
 <br>
 
@@ -53,7 +53,7 @@ All solutions are written in **JavaScript**. Click a problem for its write-up, o
 
 > [!TIP]
 > The theory behind each pattern (hand-drawn Excalidraw notes + templates) lives in the twin repo
-> **[sombreror/algorithms](https://github.com/sombreror/algorithms)** — e.g. [Two Pointers](https://github.com/sombreror/algorithms/tree/main/Algorithms/Two%20Pointers) and [Sliding Window](https://github.com/sombreror/algorithms/tree/main/Algorithms/Sliding%20Window).
+> **[sombreror/algorithms-and-data-structure](https://github.com/sombreror/algorithms-and-data-structure)** — e.g. [Two Pointers](https://github.com/sombreror/algorithms-and-data-structure/tree/main/Algorithms/Two%20Pointers) and [Sliding Window](https://github.com/sombreror/algorithms-and-data-structure/tree/main/Algorithms/Sliding%20Window).
 
 | # | Problem | Difficulty | Topic | Approach | Time | Space | Code |
 |:-:|---------|:----------:|:-----:|----------|:----:|:-----:|:----:|
