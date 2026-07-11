@@ -5,7 +5,7 @@ class Solution {
      * @return {number}
      */
     characterReplacement(s, k) {
-        //ritornare il numero uguale massimo di lettere che ci possono essere in una stringa
+        // longest window that can become all-equal letters with at most k replacements
         let map = new Map();
         let left = 0,
             res = 0,
@@ -22,3 +22,5 @@ class Solution {
         return res;
     }
 }
+
+module.exports = Solution;
