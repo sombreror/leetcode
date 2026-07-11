@@ -13,9 +13,9 @@
 
 <br>
 
-<img src="https://img.shields.io/badge/Solved-12-2f81f7?style=for-the-badge" alt="Solved: 12">
-<img src="https://img.shields.io/badge/Easy-5-00b8a3?style=for-the-badge" alt="Easy: 5">
-<img src="https://img.shields.io/badge/Medium-7-ffb800?style=for-the-badge" alt="Medium: 7">
+<img src="https://img.shields.io/badge/Solved-17-2f81f7?style=for-the-badge" alt="Solved: 17">
+<img src="https://img.shields.io/badge/Easy-8-00b8a3?style=for-the-badge" alt="Easy: 8">
+<img src="https://img.shields.io/badge/Medium-9-ffb800?style=for-the-badge" alt="Medium: 9">
 <img src="https://img.shields.io/badge/Hard-0-ff375f?style=for-the-badge" alt="Hard: 0">
 
 <br>
@@ -31,18 +31,19 @@
 
 | Difficulty | Solved | Share of solved | |
 |:-----------|:------:|:---------------:|:--|
-| ![Easy][easy] | **5** | 42% | ${\color{teal}\blacksquare\blacksquare\blacksquare\blacksquare}\color{lightgray}\square\square\square\square\square\square$ |
-| ![Medium][medium] | **7** | 58% | ${\color{orange}\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare}\color{lightgray}\square\square\square\square$ |
+| ![Easy][easy] | **8** | 47% | ${\color{teal}\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare}\color{lightgray}\square\square\square\square\square$ |
+| ![Medium][medium] | **9** | 53% | ${\color{orange}\blacksquare\blacksquare\blacksquare\blacksquare\blacksquare}\color{lightgray}\square\square\square\square\square$ |
 | ![Hard][hard] | **0** | 0% | $\color{lightgray}\square\square\square\square\square\square\square\square\square\square$ |
 
 ### By topic
 
 ```mermaid
-%%{init: {"themeVariables": {"pie1": "#2f81f7", "pie2": "#8957e5", "pie3": "#1f883d", "pieOuterStrokeWidth": "2px"}}}%%
+%%{init: {"themeVariables": {"pie1": "#2f81f7", "pie2": "#8957e5", "pie3": "#1f883d", "pie4": "#e3116c", "pieOuterStrokeWidth": "2px"}}}%%
 pie showData title Solved problems by topic
-    "Arrays & Hashing" : 5
+    "Arrays & Hashing" : 7
     "Two Pointers" : 4
     "Sliding Window" : 3
+    "Binary Search" : 3
 ```
 
 ---
@@ -61,14 +62,19 @@ All solutions are written in **JavaScript**. Click a problem for its write-up, o
 | 3 | [Longest Substring Without Repeating Characters](solutions/0003-longest-substring-without-repeating-characters/) | ![Medium][medium] | ![Sliding Window][window] | Sliding window + last-seen map | `O(n)` | `O(k)` | [`solution.js`](solutions/0003-longest-substring-without-repeating-characters/solution.js) |
 | 11 | [Container With Most Water](solutions/0011-container-with-most-water/) | ![Medium][medium] | ![Two Pointers][pointers] | Two pointers | `O(n)` | `O(1)` | [`solution.js`](solutions/0011-container-with-most-water/solution.js) |
 | 15 | [3Sum](solutions/0015-3sum/) | ![Medium][medium] | ![Two Pointers][pointers] | Sort + two pointers | `O(n²)` | `O(1)` | [`solution.js`](solutions/0015-3sum/solution.js) |
+| 35 | [Search Insert Position](solutions/0035-search-insert-position/) | ![Easy][easy] | ![Binary Search][binsearch] | Binary search | `O(log n)` | `O(1)` | [`solution.js`](solutions/0035-search-insert-position/solution.js) |
 | 49 | [Group Anagrams](solutions/0049-group-anagrams/) | ![Medium][medium] | ![Arrays & Hashing][arrays] | Character-count key | `O(n·k)` | `O(n·k)` | [`solution.js`](solutions/0049-group-anagrams/solution.js) |
+| 74 | [Search a 2D Matrix](solutions/0074-search-2d-matrix/) | ![Medium][medium] | ![Binary Search][binsearch] | Binary search on flattened matrix | `O(log(m·n))` | `O(1)` | [`solution.js`](solutions/0074-search-2d-matrix/solution.js) |
 | 121 | [Best Time to Buy and Sell Stock](solutions/0121-best-time-to-buy-and-sell-stock/) | ![Easy][easy] | ![Sliding Window][window] | One pass, rolling minimum | `O(n)` | `O(1)` | [`solution.js`](solutions/0121-best-time-to-buy-and-sell-stock/solution.js) |
 | 125 | [Valid Palindrome](solutions/0125-valid-palindrome/) | ![Easy][easy] | ![Two Pointers][pointers] | Filter & compare with reverse | `O(n)` | `O(n)` | [`solution.js`](solutions/0125-valid-palindrome/solution.js) |
 | 167 | [Two Sum II — Input Array Is Sorted](solutions/0167-two-sum-II/) | ![Medium][medium] | ![Two Pointers][pointers] | Two pointers | `O(n)` | `O(1)` | [`solution.js`](solutions/0167-two-sum-II/solution.js) |
 | 217 | [Contains Duplicate](solutions/0217-contains-duplicate/) | ![Easy][easy] | ![Arrays & Hashing][arrays] | Hash set | `O(n)` | `O(n)` | [`solution.js`](solutions/0217-contains-duplicate/solution.js) |
 | 242 | [Valid Anagram](solutions/0242-valid-anagram/) | ![Easy][easy] | ![Arrays & Hashing][arrays] | Sort & compare | `O(n log n)` | `O(n)` | [`solution.js`](solutions/0242-valid-anagram/solution.js) |
+| 271 | [Encode and Decode Strings](solutions/0271-encode-and-decode-strings/) | ![Medium][medium] | ![Arrays & Hashing][arrays] | Length-prefixed encoding (`len#str`) | `O(n)` | `O(n)` | [`solution.js`](solutions/0271-encode-and-decode-strings/solution.js) |
 | 347 | [Top K Frequent Elements](solutions/0347-top-k-frequent-elements/) | ![Medium][medium] | ![Arrays & Hashing][arrays] | Count & sort by frequency | `O(n log n)` | `O(n)` | [`solution.js`](solutions/0347-top-k-frequent-elements/solution.js) |
 | 424 | [Longest Repeating Character Replacement](solutions/0424-longest-repeating-character-replacement/) | ![Medium][medium] | ![Sliding Window][window] | Sliding window + max frequency | `O(n)` | `O(1)` | [`solution.js`](solutions/0424-longest-repeating-character-replacement/solution.js) |
+| 704 | [Binary Search](solutions/0704-binary-search/) | ![Easy][easy] | ![Binary Search][binsearch] | Classic binary search | `O(log n)` | `O(1)` | [`solution.js`](solutions/0704-binary-search/solution.js) |
+| 1929 | [Concatenation of Array](solutions/1929-concatenation-of-array/) | ![Easy][easy] | ![Arrays & Hashing][arrays] | Copy array into double-length array | `O(n)` | `O(n)` | [`solution.js`](solutions/1929-concatenation-of-array/solution.js) |
 
 ---
 
@@ -84,14 +90,19 @@ leetcode/
 │   ├── 0003-longest-substring-without-repeating-characters/
 │   ├── 0011-container-with-most-water/
 │   ├── 0015-3sum/
+│   ├── 0035-search-insert-position/
 │   ├── 0049-group-anagrams/
+│   ├── 0074-search-2d-matrix/
 │   ├── 0121-best-time-to-buy-and-sell-stock/
 │   ├── 0125-valid-palindrome/
 │   ├── 0167-two-sum-II/
 │   ├── 0217-contains-duplicate/
 │   ├── 0242-valid-anagram/
+│   ├── 0271-encode-and-decode-strings/
 │   ├── 0347-top-k-frequent-elements/
-│   └── 0424-longest-repeating-character-replacement/
+│   ├── 0424-longest-repeating-character-replacement/
+│   ├── 0704-binary-search/
+│   └── 1929-concatenation-of-array/
 └── graphify-out/                    # auto-generated knowledge graph (see below)
 ```
 
@@ -178,3 +189,4 @@ graphify update .        # incremental, AST-only, no API cost
 [arrays]: https://img.shields.io/badge/Arrays_%26_Hashing-2f81f7?style=flat-square
 [pointers]: https://img.shields.io/badge/Two_Pointers-8957e5?style=flat-square
 [window]: https://img.shields.io/badge/Sliding_Window-1f883d?style=flat-square
+[binsearch]: https://img.shields.io/badge/Binary_Search-e3116c?style=flat-square
