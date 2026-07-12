@@ -5,18 +5,15 @@ class Solution {
      * @return {number}
      */
     removeElement(nums, val) {
-        let left = 0,
-            right = nums.length - 1;
         let k = 0;
-        while (left < right) {
-            if (nums[left] === val) {
-                k = val;
-            } else if (nums[left] < val) {
-                left++;
-            } else {
-                right++;
+
+        for (let i = 0; i < nums.length; i++) {
+            if (nums[i] !== val) {
+                nums[k] = nums[i];
+                k++;
             }
         }
+
         return k;
     }
 }
