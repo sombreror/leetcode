@@ -21,3 +21,5 @@ class Solution {
         return left;
     }
 }
+
+module.exports = Solution;

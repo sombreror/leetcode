@@ -7,3 +7,5 @@ class Solution {
         return nums.concat(nums);
     }
 }
+
+module.exports = Solution;

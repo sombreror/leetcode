@@ -13,3 +13,5 @@ class Solution {
         return ans;
     }
 }
+
+module.exports = Solution;
