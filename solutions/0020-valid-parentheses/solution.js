@@ -34,3 +34,5 @@ class Solution {
         return stack.length === 0; //if the stack is empty, then the solution was correct and we return true
     }
 }
+
+module.exports = Solution;

@@ -32,3 +32,5 @@ class Solution {
         return result;
     }
 }
+
+module.exports = Solution;
