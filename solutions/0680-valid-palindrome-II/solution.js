@@ -35,3 +35,5 @@ function isPalindrome(s, left, right) {
 
     return true;
 }
+
+module.exports = Solution;

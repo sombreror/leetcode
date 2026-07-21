@@ -19,3 +19,5 @@ class Solution {
         return false;
     }
 }
+
+module.exports = Solution;
